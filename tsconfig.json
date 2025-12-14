@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "noImplicitAny": true,
+      "allowJs": true,
+      "module": "commonjs",
+      "noLib": false,
+      "target": "es5",
+//      "typeRoots": ["../../typings"],
+//      "types": ["index.d"],
+//      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "removeComments": true,
+      "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+      "./typings/*.d.ts",
+      "./validator.ts",
+      "./validator.exports.js",
+      "./helper.utils.js"
+    ],
+    "typings": [
+    ]
+}
